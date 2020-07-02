@@ -1,5 +1,3 @@
-# Desafio Java - Banco Inter
-
 # Requisitos para compilar e executar a aplicação
 
 # Requisitos:
