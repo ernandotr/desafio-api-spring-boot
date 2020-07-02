@@ -1,0 +1,426 @@
+{
+	"info": {
+		"_postman_id": "e19a6640-3d99-47d2-ac65-d38d572d0417",
+		"name": "Desafio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Usuario",
+			"item": [
+				{
+					"name": "localhost:8080/api/usuario",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Ernando\",\n\t\"email\": \"ernando.03@gmail.com\"\n}"
+						},
+						"url": {
+							"raw": "localhost:8080/api/usuario",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/usuario",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Ernando\",\n\t\"email\": \"ernando.03@gmail.com\"\n}"
+						},
+						"url": {
+							"raw": "localhost:8080/api/usuario",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/usuario/1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Ernando\",\n\t\"email\": \"ernando.03@gmail.com\"\n}"
+						},
+						"url": {
+							"raw": "localhost:8080/api/usuario/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"usuario",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/usuario",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t \"id\": 1,\n    \"name\": \"Ernando Rezende\",\n    \"email\": \"ernando.03@gmail.com\"\n}"
+						},
+						"url": {
+							"raw": "localhost:8080/api/usuario",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/usuario",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Luciana\",\n\t\"email\": \"Luciana.01@gmail.com\"\n}"
+						},
+						"url": {
+							"raw": "localhost:8080/api/usuario",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/usuario/2",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Luciana\",\n\t\"email\": \"Luciana.01@gmail.com\"\n}"
+						},
+						"url": {
+							"raw": "localhost:8080/api/usuario/2",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"usuario",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Dígito único",
+			"item": [
+				{
+					"name": "localhost:8080/api/digito-unico",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"n\": \"3\",\n\t\"k\": 1\n}"
+						},
+						"url": {
+							"raw": "localhost:8080/api/digito-unico",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"digito-unico"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/digito-unico",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"n\": \"9875\",\n\t\"k\": 1\n}"
+						},
+						"url": {
+							"raw": "localhost:8080/api/digito-unico",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"digito-unico"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/digito-unico",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"n\": \"9875\",\n\t\"k\": 4,\n\t\"idUsuario\": 1\n}"
+						},
+						"url": {
+							"raw": "localhost:8080/api/digito-unico",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"digito-unico"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/digito-unico",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"n\": \"9875\",\n\t\"k\": 2,\n\t\"idUsuario\": 1\n}"
+						},
+						"url": {
+							"raw": "localhost:8080/api/digito-unico",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"digito-unico"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Digitos calculados por usuario",
+			"item": [
+				{
+					"name": "localhost:8080/api/digitos-usuario/1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:8080/api/digitos-usuario/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"digitos-usuario",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Criptografia",
+			"item": [
+				{
+					"name": "localhost:8080/api/cripto/gera-chave",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:8080/api/cripto/gera-chave",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"cripto",
+								"gera-chave"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/cripto/encripta",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "texto",
+									"value": "Ernando",
+									"type": "text"
+								},
+								{
+									"key": "chave",
+									"value": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAieIX3Co52ZYWz1nj5kuSLOQzqwEJFVvpBcnL7lcvXS0t06XY7lqznzPAmieYanEUoziHSdDmIEGsuIzx4WD0DOjALDIUsbEWixu5pWtyFAFZXTL4fYzighPXHl8MCamnppvgl0L+PFfPnj6+cg8wZzr3F77Q9mQFAWRfsyEyHPBnryiybE+C71IddMrprERZOsSYQAJD810xdQ8ZvMwFf1Sd4QYJcDAYU91JkshtLysB3zxtEkk2snY80jm5rMSCb47klz6QDQRJZ2tnOjUVX0+JsCIrPTYZ6g7CF83A9jlg4lgswc7c5Sxrh0J8rvWTpUMvcLjkQfxgWjIcXaJeAQIDAQAB",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8080/api/cripto/encripta",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"cripto",
+								"encripta"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
